@@ -1,0 +1,7 @@
+name: s3 sync
+on: [push]
+jobs:
+  subhan:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
